@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background: radial-gradient( #0000, #292929);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    width: 450px;
+    height: 300px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.display {
+    text-align: center;
+    height: 40px;
+    width: 350px;
+    border: 1px solid #000;
+    margin: 30px;
+    color: #000;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 28px;
+    background-color: lightgrey;
+}
+
+.generate-btn, .copy-btn, .exit-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background-color: #0000;
+    border: 1px solid #000;
+    color: #000;
+    font-size: 14px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.generate-btn:hover {
+    background-color: #fff;
+}
+
+.copy-btn:hover {
+    background-color: #fff;
+}
+
+.exit-btn:hover {
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #000;
+}
