@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/loan.css">
+    <script src="https://kit.fontawesome.com/1c5c45f61c.js" crossorigin="anonymous"></script>
+    <title>Loan Calculator</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <h2>Personal Loan</h2>
+
+        <form id="form">
+            <div class="form-control">
+                <label for="amount">Amount $USD</label>
+                <input type="number" id="amount" placeholder="$ Enter Amount">
+            </div>
+            <div class="form-control">
+                <label for="interestrate">Interest Rate %</label>
+                <input type="number" id="interest" placeholder="% Enter Interest Rate">
+            </div>
+            <div class="form-control">
+                <label for="months">Months</label>
+                <input type="number" id="months" min="1" max="72" placeholder="Enter Months">
+            </div>
+            <p>Monthly Repayment</p>
+            <div id="payback" class="payback"></div>
+            <button id="calculate" class="calculate">Calculate</button>
+        </form>
+
+    </div>
+
+    <script src="js/loan.js"></script>
+</body>
+
+</html>
