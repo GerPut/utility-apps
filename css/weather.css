@@ -48,6 +48,15 @@ input[type='text'] {
     width: 100%;
 }
 
+input[type='submit'] {
+    display: block;
+    margin-top: 5px;
+    font-size: 16px;
+    padding: 5px;
+    width: 100%;
+    cursor: pointer;
+}
+
 .location .city {
     display: block;
     text-align: center;
@@ -57,11 +66,20 @@ input[type='text'] {
     margin: 5px 0 5px 0;
 }
 
-.location .date {
+.date {
     display: block;
     text-align: center;
     color: #000;
     font-size: 16px;
+    margin-top: 10px;
+}
+
+.city {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    font-weight: 800;
 }
 
 .current .temp {
@@ -70,7 +88,6 @@ input[type='text'] {
     color: #000;
     font-size: 80px;
     font-weight: 800;
-    margin: 20px 0px;
 }
 
 .current .temp span {
@@ -87,15 +104,7 @@ input[type='text'] {
     margin-bottom: 15px;
 }
 
-.current .hi-low {
-    display: block;
-    text-align: center;
-    color: #000;
-    font-size: 24px;
-    font-weight: 500;
-}
-
-p {
-    display: block;
-    text-align: center;
+hr {
+    margin-top: 40px;
+    width: 80%;
 }
