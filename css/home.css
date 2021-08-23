@@ -53,3 +53,10 @@ a {
     font-size: 14px;
     padding: 20px;
 }
+
+.return {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 50px;
+}

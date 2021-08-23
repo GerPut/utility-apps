@@ -92,3 +92,11 @@ input[type='text'], input[type='number'] {
     background: #fff;
     border: none;
 }
+
+.return {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 50px;
+    color: #000;
+}
