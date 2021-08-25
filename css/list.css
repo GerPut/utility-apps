@@ -35,3 +35,27 @@ body {
     font-size: 50px;
     color: #000;
 }
+
+h2 {
+    display: block;
+    text-align: center;
+}
+
+span {
+    font-size: 0.8rem;
+    color: red;
+    padding: 5px;
+}
+
+span:hover {
+    cursor: pointer;
+}
+
+td:first-child {
+    width: 200px;
+    overflow: hidden;
+}
+
+#addItem {
+    width: 210px;
+}
