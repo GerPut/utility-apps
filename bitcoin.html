@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/bitcoin.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Bitcoin Price</title>
+</head>
+
+<body>
+    <a href="index.html" class="return">
+        <i class="far fa-caret-square-left"></i>
+    </a>
+    <div class="container">
+        <h1>Bitcoin</h1>
+        <div class="inner-container">
+            <span class="service-icon">
+                <i class="fab fa-bitcoin fa-3x pb-3"></i>
+            </span>
+            <h5>CURRENT PRICE</h5>
+            <p id="btc-price"></p>
+            <span class="service-icon">
+                <i class="far fa-clock fa-3x pb-3"></i>
+            </span>
+            <h5>HALVING COUNTDOWN</h5>
+            <p><span id="days"></span> Days <span id="hours"></span> Hours <span id="minutes"></span> Min <span
+                    id="seconds"></span> Seconds</p>
+        </div>
+    </div>
+    <script src="js/bitcoin.js"></script>
+</body>
+
+</html>
