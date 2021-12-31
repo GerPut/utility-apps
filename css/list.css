@@ -60,3 +60,9 @@ td:first-child {
 #addItem {
     width: 210px;
 }
+
+@media screen and (max-width: 500px) {
+    .container {
+        width: 350px
+    }
+}
