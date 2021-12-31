@@ -64,3 +64,9 @@ select {
     font-size: 30px;
     color: #000;
 }
+
+@media screen and (max-width: 500px) {
+    .container {
+        width: 350px
+    }
+}

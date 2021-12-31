@@ -93,3 +93,18 @@ a:visited {
     left: 20px;
     font-size: 30px;
 }
+
+@media screen and (max-width: 500px) {
+    .container {
+        width: 350px
+    }
+
+    .display {
+        width: 300px;
+        font-size: 24px;
+    }
+
+    .generate-btn, .copy-btn, .exit-btn {
+        width: 80px;
+    }
+}
